@@ -1121,31 +1121,27 @@ height:360px;
 ======================================*/
 
 .github-grid{
-    display:grid;
-    grid-template-columns:repeat(2,1fr);
-    gap:30px;
+    display:flex;
+    justify-content:center;
 }
 
 .github-card{
+    width:100%;
+    max-width:1200px;
+
     background:rgba(255,255,255,.04);
     border:1px solid var(--border);
     border-radius:22px;
-    overflow:hidden;
+
     padding:18px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+
+    overflow:hidden;
 }
 
 .github-card img{
     width:100%;
-    height:auto;
     display:block;
     border-radius:12px;
-}
-
-.full-width{
-    grid-column:1 / -1;
 }
 
 /*======================================
